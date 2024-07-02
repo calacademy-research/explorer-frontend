@@ -64,6 +64,8 @@ type Specimen = {
   id: string; // unique key, potentially used as slug
   herbId: string;
   name: string;
+  species: string;
+  island: string;
   lat: string;
   lon: string;
   descrption: string;
