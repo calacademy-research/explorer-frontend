@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Design
+
+[Figma file](https://www.figma.com/design/6vTJc92nm0tlMJ1wz3vzkl/CAS-Galapagateway?node-id=412-269&t=OrSaSnp5cb3vq7j4-1)
+
 ## Getting Started
 
 Run the development server:
