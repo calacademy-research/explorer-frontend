@@ -28,7 +28,7 @@ This project relies on endpoints serviced by Django in a different repo.
 
 ### `GET /api/species/`
 Returns:
-```
+```typescript
 interface ApiSpeciesResult {
   species: Array<string>;
 }
@@ -36,7 +36,7 @@ interface ApiSpeciesResult {
 
 ### `GET /api/islands`
 Returns:
-```
+```typescript
 interface ApiIslandsResult {
   islands: Array<string>;
 }
@@ -44,7 +44,7 @@ interface ApiIslandsResult {
 
 ### `GET /api/specimen`
 Query Parameters:
-```
+```typescript
 interface ApiSpecimenParam {
   islands: Array<string>;
   species: Array<string>;
@@ -54,7 +54,7 @@ interface ApiSpecimenParam {
 ```
 
 Returns:
-```
+```typescript
 type KVPair = {
   key: string;
   value: string;
