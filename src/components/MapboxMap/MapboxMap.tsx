@@ -22,8 +22,8 @@ const MapboxMap: React.FC<MapboxMapProps> = ({ className }) => {
 
     mapRef.current = new mapboxgl.Map({
       container: mapContainerRef.current,
-      style: "mapbox://styles/mapbox/satellite-v9",
-      // style: "mapbox://styles/mapbox/streets-v12",
+      // style: "mapbox://styles/mapbox/satellite-v9",
+      style: "mapbox://styles/mapbox/streets-v12",
       projection: "globe",
       // center: [137.915, 36.259],
       center: [-91.1267787, -0.4497914],
